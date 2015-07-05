@@ -1,0 +1,75 @@
+body{
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.header-2{
+  background-color:#f5f5f5;
+}
+.header .container{
+  width:1000px;
+  margin:0 auto;
+  padding-left:150px;
+  position:relative;
+  /* border:1px solid black; */
+}
+.header .logo{
+  position:absolute;
+  left:0;
+  top:0;
+  width:200px;
+  height:100px;
+  background:url("../img/logo.png") no-repeat;
+  border:1px solid #aaaaaa;
+  text-align:center;
+  line-height:100px;
+  vertical-align:middle;
+  text-decoration:none;
+  color:black;
+  font-size:24px;
+  z-index:100;
+  
+  /* border:1px solid yellow; */
+}
+.header .menu-1 {
+  height:55px;
+  /* border:1px solid red; */
+}
+
+.header .menu-2{
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align:right;
+  /* border:1px solid blue; */
+}
+
+.header .menu-2 li{
+  display:inline-block;
+  margin-left:40px;
+  white-space:nowrap;
+}
+
+.header .menu-2 a{
+  display:block;
+  height:15px;
+  padding:15px 0;
+  color:black;
+  font-size:15px;
+  text-transform:uppercase;
+  text-decoration:none;
+  /* background-color:yellow; */
+}
+.header .menu-2 a:hover{
+  text-decoration:underline;
+}
+
+.promo{
+  
+}
+.promo-1{
+  height:440px;
+  border:1px solid green;
+}
+.promo-2{
+  height:100px;
+  border:1px solid orange;
+}
